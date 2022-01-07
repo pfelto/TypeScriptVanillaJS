@@ -8,8 +8,17 @@
 </head>
 <body>
     <div>
-        <h1>JavaScript App</h1>
-        <button id='counter'>+</button>
+        <h1>TypeScript App</h1>
+        <form>
+            <label for="item">Enter Shopping Item</label>
+            <br />
+            <input type="text" id='item' pattern="^\S+$"/>
+            <button type="submit">submit</button>
+        </form>
+        <h5>Shopping List</h5>
+        <div>
+            <ul id='list'></ul>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
